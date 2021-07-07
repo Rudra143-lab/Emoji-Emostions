@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background: #c0d3ff;
+}
+
+@font-face {
+  font-family: myfontfamily;
+  src: url("Staatliches-Regular.ttf");
+}
+
+span {
+  font-size: 30px;
+}
+
+.cam,
+.result {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 48px;
+}
+
+.heading {
+  font-size: 26px;
+  font-family: myfontfamily;
+  letter-spacing: 10px;
+}
+
+p{
+  color: purple;
+  font-weight: 700;
+}
